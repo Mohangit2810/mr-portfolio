@@ -1,7 +1,7 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
-import project1 from "/src/assets/images/project1.png";
-import project2 from "/src/assets/images/project2.png";
+import project1 from "/src/assets/images/project1.jpg";
+import project2 from "/src/assets/images/project2.jpg";
 import "../pages/style.css";
 
 function Projectlist() {
