@@ -1,7 +1,7 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
-import project1 from "/src/assets/images/project1.jpg";
-import project2 from "/src/assets/images/project2.jpg";
+import projectone from "/src/assets/images/projectone.jpg";
+import projecttwo from "/src/assets/images/projecttwo.jpg";
 import "../pages/style.css";
 
 function Projectlist() {
@@ -12,7 +12,7 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={project1}
+                imgPath={projectone}
                 isBlog={false}
                 title="Omnifood Website"
                 description="Omnifood Website is a static website build with HTML,CSS and little bit of javascript. This is a responsive website which resizes according to the screen size. This project is done under the guidance of Udemy course 'Responsive Website with HTML and CSS'"
@@ -23,7 +23,7 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={project2}
+                imgPath={projecttwo}
                 isBlog={false}
                 title="Movie Watchlist"
                 description="Movie Watchlist is a simple web application built with HTML,CSS and ReactJS receives movies data form TMDB (The Movie Data Base) based on the query received in the search box. It stores the watchlist data in the local storage of the app. This project is done under the guidance of Udemy course, 'The Ultimate React Course'"
