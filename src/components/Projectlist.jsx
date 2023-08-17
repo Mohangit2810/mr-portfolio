@@ -2,6 +2,7 @@ import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
 import projectone from "/src/static/projectone.jpg";
 import projecttwo from "/src/static/projecttwo.jpg";
+import projectthree from "/src/static/projectthree.jpg";
 import "../pages/style.css";
 
 function Projectlist() {
@@ -32,17 +33,17 @@ function Projectlist() {
               />
             </Col>
 
-            {/* <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={projectthree}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="https://react-netflixweb-clone.netlify.app/"
+                title="todo App"
+                description="This todo app is simple web app done with ReactJS. This project shows the effective ways of using useState() hook which makes this very easy to build."
+                ghLink="https://github.com/Mohangit2810/todo-app"
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={gridlinesbuilders}
                 isBlog={false}
