@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import projectone from "/src/static/projectone.jpg";
 import projecttwo from "/src/static/projecttwo.jpg";
 import projectthree from "/src/static/projectthree.jpg";
-import projectfour from "/src/static/projectfour.jpg";
+import projectfour from "/src/static/projectfour.png";
 import "../pages/style.css";
 
 function Projectlist() {
