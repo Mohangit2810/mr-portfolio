@@ -4,6 +4,7 @@ import projectone from "/src/static/projectone.jpg";
 import projecttwo from "/src/static/projecttwo.jpg";
 import projectthree from "/src/static/projectthree.jpg";
 import projectfour from "/src/static/projectfour.png";
+import projectfive from "/src/static/projectfive.png";
 import "../pages/style.css";
 
 function Projectlist() {
@@ -12,6 +13,16 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={projectfive}
+                isBlog={false}
+                title="Cosmic Crafts"
+                description="Cosmic Crafts is a static website that is built for a community based startup idea. It is built with React JS and styled completely with bootstrap."
+                ghLink="https://cosmiccrafts.netlify.app/"
+              />
+            </Col>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={projectone}
@@ -55,16 +66,6 @@ function Projectlist() {
             </Col>
 
             {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={charlespizza}
-                isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={todolist}
                 isBlog={false}

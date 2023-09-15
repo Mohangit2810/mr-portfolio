@@ -4,6 +4,7 @@ export const skillsData = [
   "Javascript",
   "React",
   "ViteJS",
+  "Node JS",
   "Git",
   "Python",
   "Bootstrap",

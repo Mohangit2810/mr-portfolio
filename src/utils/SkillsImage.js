@@ -25,6 +25,7 @@ import postgresql from "/svg/static/postgresql.svg";
 import tailwind from "/svg/static/tailwind.svg";
 import vitejs from "/svg/static/vitejs.svg";
 import vuetifyjs from "/svg/static/vuetifyjs.svg";
+import nodejs from "/svg/static/nodejs.svg";
 import c from "/svg/static/c.svg";
 import cplusplus from "/svg/static/cplusplus.svg";
 import csharp from "/svg/static/csharp.svg";
@@ -102,6 +103,8 @@ export const skillsImage = (skill) => {
       return nextJS;
     case "nuxt js":
       return nuxtJS;
+    case "node js":
+      return nodejs;
     case "react":
       return react;
     case "svelte":
